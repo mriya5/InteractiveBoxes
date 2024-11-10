@@ -1,0 +1,134 @@
+.main{
+    width: 400px;
+    border: 2px solid black;
+    height: 100%;
+}
+.main_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.container{
+    padding:40px;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+}
+.amount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    h1{
+        margin-left: 10px;
+    };
+    p{
+        font-size: 10px;
+        margin-left: 10px;
+        background-color: #ff4081;
+        padding:2px 5px;
+    };
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+}
+.price h5{
+    margin: 0;
+    padding: 0;
+}
+.price p {
+    margin: 0;
+    padding: 0;
+    text-decoration: line-through;
+}
+.badge {
+/* position: absolute; */
+position: relative;
+top: -10px;
+/* right: 10px; */
+width: 110px;
+display: flex;
+margin-left: 68%;
+background-color: #ff4081;
+color: white;
+font-size: 12px;
+padding: 4px 6px;
+border-radius: 4px;
+justify-content: center;
+}
+.task button{
+    background-color: #ff4081;
+    width: 400px;
+    padding: 2%;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+.details{
+    margin-left:10%;
+    padding-bottom:10%;
+}  
+.size{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-right:30%
+}
+.details_content{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    /* margin-left: 30px; */
+}
+.size_content{
+    position: relative;
+    border:1px solid black;
+    padding:1px 5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width:70px;
+    height:30px;
+    justify-content:space-between;
+    margin-left:20px;
+    cursor: pointer;
+}
+.size_content select{
+    border: none;
+}
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  .dropdown p {
+    margin: 0;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  .dropdown p:hover {
+    background-color: #f0f0f0;
+  }
+.size_content img{
+    height:10px;
+    width:10px
+}
+.size_content p{
+    font-size: 12px;
+}
